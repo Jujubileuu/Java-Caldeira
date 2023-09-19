@@ -8,5 +8,6 @@ public class Exercicio03 {
 
         System.out.print("Digite três números inteiros:");
         String numeros = scanner.nextLine();
+
     }
 }
