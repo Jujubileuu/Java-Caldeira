@@ -1,6 +1,6 @@
-package Aula04;
+package Aula04.Exercicio01;
 
-public abstract class Exercicio01Regras {
+public abstract class Regras {
     private String Marca;
     private String Modelo;
     private int Ano;

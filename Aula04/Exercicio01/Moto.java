@@ -1,12 +1,12 @@
-package Aula04;
+package Aula04.Exercicio01;
 
-public class Exercicio01Moto extends Exercicio01Regras {
+public class Moto extends Regras {
     @Override
     public double calcularCustoViagem(int distancia) {
         return distancia*0.15;
     }
     public static void main(String[] args) {
-        Exercicio01Regras regras = new Exercicio01Moto();
+        Regras regras = new Moto();
 
         regras.setMarca("Honda");
         regras.setModelo("RTX4600");
