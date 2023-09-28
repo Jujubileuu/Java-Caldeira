@@ -15,10 +15,15 @@ public class Exercicio02 {
             listaNumeros.add(rand.nextInt(100));
         }
 
-        if (listaNumeros == true) {
-            System.out.print("Você acertou, a vitória é sua.");
+        //System.out.println(listaNumeros); Usado para testar a vitória
+
+        System.out.print("Digite qualquer número inteiro:");
+        int Jogador = Integer.parseInt(scanner.nextLine());
+
+        if (listaNumeros.contains(Jogador) == true) {
+            System.out.print("Ryomen Sukuna: Orgulhe-se, pois você é forte.");
         } else {
-            System.out.print("Yoaimo");
+            System.out.print("Satoru Gojo: Yoaimo (Você é fraco).");
         }
     }
 }

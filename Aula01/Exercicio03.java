@@ -7,7 +7,10 @@ public class Exercicio03 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Digite três números inteiros:");
-        String numeros = scanner.nextLine();
-
+        String numero1 = scanner.nextLine();
+        System.out.print("Digite três números inteiros:");
+        String numero2 = scanner.nextLine();
+        System.out.print("Digite três números inteiros:");
+        String numero3 = scanner.nextLine();
     }
 }
