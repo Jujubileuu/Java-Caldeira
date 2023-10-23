@@ -1,13 +1,17 @@
 package Aula01;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class Exercicio09 {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Digite sua idade: ");
-        int idade = Integer.parseInt(scanner.nextLine());
-        String texto = scanner.nextLine();
+        Calendar calendar = GregorianCalendar.getInstance();
+        int anoAtual = calendar.get(Calendar.YEAR);
+
+        System.out.println("Digite seu ano de nascimento: ");
+        int anoNascimento = Integer.parseInt(scanner.nextLine());
+
+        System.out.println("Sua idade é: " + (anoAtual - anoNascimento));
     }
 }
