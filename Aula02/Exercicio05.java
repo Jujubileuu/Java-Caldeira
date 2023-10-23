@@ -1,5 +1,6 @@
 package Aula02;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Exercicio05 {
@@ -7,7 +8,9 @@ public class Exercicio05 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Digite seu nome:");
-        String nome = scanner.nextLine();
-        int idade = Integer.parseInt(scanner.nextLine());
+        String palavra = scanner.nextLine();
+        String[] corte = {palavra.substring(0, palavra.length()/2),palavra.substring(palavra.length()/2)};
+
+        System.out.println("A primeira metade da palavra inserida é: " + corte[0]);
     }
 }
