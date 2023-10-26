@@ -12,8 +12,8 @@ public class Exercicio02 {
         System.out.println("Qual sua idade:");
         int idade = Integer.parseInt(scanner.nextLine());
 
-        System.out.println("Qual seu salário (sem suporte para os centavos):");
-        double salario = Integer.parseInt(scanner.nextLine());
+        System.out.println("Qual seu salário (ponto para cenavos):");
+        double salario = Double.parseDouble(scanner.nextLine());
 
         if (idade >= 18 && salario >= 2000) {
             System.out.print("Eu te deixo comprar o meu carro " + nome);
