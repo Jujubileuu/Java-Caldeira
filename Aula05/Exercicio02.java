@@ -20,7 +20,7 @@ public class Exercicio02 {
         System.out.print("Digite qualquer número inteiro:");
         int Jogador = Integer.parseInt(scanner.nextLine());
 
-        if (listaNumeros.contains(Jogador) == true) {
+        if (listaNumeros.contains(Jogador)) {
             System.out.print("Ryomen Sukuna: Orgulhe-se, pois você é forte.");
         } else {
             System.out.print("Satoru Gojo: Yoaimo (Você é fraco).");
