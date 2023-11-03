@@ -12,7 +12,7 @@ public class impressao {
             System.out.println("""
                             \n@LISTA DE COMPRAS@\s
 
-                             1.Adicionar novo itens;
+                             1.Adicionar novo documento;
                              2.Imprimir documentos;
                              3.Fechar lista"""
             );
