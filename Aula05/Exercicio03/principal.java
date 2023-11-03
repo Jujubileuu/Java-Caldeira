@@ -20,13 +20,13 @@ public class principal {
             switch (opcao) {
                 case "1":
                     System.out.println("\nTítulo: ");
-                    tarefa.setTitulo(scanner.next());
+                    tarefa.setTitulo(scanner.nextLine());
 
                     System.out.println("Data de conclusão: ");
-                    tarefa.setData(scanner.next());
+                    tarefa.setData(scanner.nextLine());
 
                     System.out.println("Descrição: ");
-                    tarefa.setDescricao(scanner.next());
+                    tarefa.setDescricao(scanner.nextLine());
                     break;
                 case "2":
                     System.out.println("\nTAREFAS CRIADAS\n");
@@ -34,7 +34,7 @@ public class principal {
                     break;
                 case "3":
                     System.out.println("\nDigite o título da tarefa que quer remover: ");
-                    tarefa.removerTarefa(scanner.next());
+                    tarefa.removerTarefa(scanner.nextLine());
                     break;
                 case "4":
                     System.exit(0);

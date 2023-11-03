@@ -22,10 +22,10 @@ public class principal {
             switch (opcao) {
                 case "1":
                     System.out.println("\nNome: ");
-                    listaItens.setNome(scanner.next());
+                    listaItens.setNome(scanner.nextLine());
 
                     System.out.println("Data de validade: ");
-                    listaItens.setData(scanner.next());
+                    listaItens.setData(scanner.nextLine());
 
                     break;
                 case "2":
@@ -34,7 +34,7 @@ public class principal {
                     break;
                 case "3":
                     System.out.println("\nDigite o item que quer remover: ");
-                    listaItens.removerItem(scanner.next());
+                    listaItens.removerItem(scanner.nextLine());
                     break;
                 case "4":
                     System.exit(0);

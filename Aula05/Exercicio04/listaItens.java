@@ -19,10 +19,10 @@ public class listaItens {
                     "\nValidade: " + data.get(i));
         }
     }
-    public static void removerItem(String tituloTarefa){
-        if (listaItens.nome.contains(tituloTarefa)){
-            listaItens.nome.remove(tituloTarefa);
-            listaItens.data.remove(tituloTarefa);
+    public static void removerItem(String nomeItem){
+        if (listaItens.nome.contains(nomeItem)){
+            listaItens.nome.remove(nomeItem);
+            listaItens.data.remove(nomeItem);
             System.out.println("Item removida com sucesso.\n");
         } else {
             System.out.println("Item não encontrado.\n");
