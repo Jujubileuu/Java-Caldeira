@@ -1,4 +1,4 @@
-package Aula07;
+package Aula07.Exercicio01;
 
 public class Circulo implements Desenhavel {
     @Override

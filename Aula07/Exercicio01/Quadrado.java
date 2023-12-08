@@ -1,9 +1,9 @@
-package Aula07;
+package Aula07.Exercicio01;
 
 public class Quadrado implements Desenhavel {
     @Override
     public String desenhar() {
-        System.out.print("Vou desenhar agora um Circulo");
+        System.out.print("Vou desenhar agora um Quadrado");
         return null;
     }
     public static void main(String[] args) {
